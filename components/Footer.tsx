@@ -36,7 +36,7 @@ export default function Footer()
                                 {FOOTER_CONTACT_INFO.links.map((link) => (
                                     <div
                                         key={link.label}
-                                        className="flex gap-4 md:flex-col lg:flex-row"
+                                        className="flex gap-2 md:flex-col lg:flex-row"
                                     >
                                         <p className="regular-14 text-gray-500 whitespace-nowrap">
                                             {link.label}:
