@@ -16,10 +16,20 @@ export default function Navbar()
                     <span className="font-extrabold text-blue-500">AM</span> Engine
                 </h2>
             </Link>
-            <ul className="hidden h-full gap-5 lg:flex">
+            <ul className="hidden h-full gap-2 lg:gap-5 lg:flex">
                 {NAV_LINKS.map((link) => (
                     <Button variant="ghost" className="rounded-full" asChild key={link.key} >
-                        <Link className="text-sm font-normal tracking-tight" href={link.href} key={link.key}>{link.label}</Link>
+                        <Link
+                            href={{
+                                pathname: link.href,
+                                query: {
+                                    name: link.key
+                                }
+                            }}
+                            className="text-sm font-medium tracking-tight"
+                            key={link.key}>
+                            {link.label}
+                        </Link>
 
                     </Button>
                 ))}
@@ -34,8 +44,10 @@ export default function Navbar()
                         <nav className="flex flex-col gap-4">
                             {NAV_LINKS.map((link) => (
                                 <Button variant="ghost" asChild key={link.key} >
-                                    <Link className="text-sm font-normal tracking-tight" href={link.href} key={link.key}>{link.label}</Link>
-
+                                    <Link
+                                        href={link.href}
+                                        className="text-sm font-normal tracking-tight"
+                                        key={link.key}>{link.label}</Link>
                                 </Button>
                             ))}
                         </nav>

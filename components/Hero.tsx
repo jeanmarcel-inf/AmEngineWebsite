@@ -17,7 +17,7 @@ export default function Hero()
                     <Button asChild size={"lg"} className='rounded-full lg:rounded-lg text-lg bg-blue-500'>
                         <Link href={"/motors"}>Nossos Produtos</Link>
                     </Button>
-                    <Button asChild size={"lg"} variant={"ghostStay"} className='rounded-full lg:rounded-lg  text-md hover:bg-primary/80 hover:text-primary-foreground hover:shadow-2xl'>
+                    <Button asChild size={"lg"} variant={"outline"} className='rounded-full lg:rounded-lg  text-md hover:bg-primary/80 hover:text-primary-foreground hover:shadow-2xl'>
                         <Link href={"/contact"} className='flex gap-1 items-center'>
                             <CircleUserRound className='text-blue-500 mr-2 h-5 w-5'></CircleUserRound>
                             <p>Contato</p>

@@ -45,6 +45,6 @@ export default function Map()
     }, [])
     return (
 
-        <div className=' padding-container md:h-auto h-[500px] border-2 border-primary/50  md:w-full justify-center rounded-2xl' ref={mapRef} />
+        <div className='padding-container md:h-auto h-[500px] border-2 border-primary/50  md:w-full justify-center rounded-2xl' ref={mapRef} />
     )
 }

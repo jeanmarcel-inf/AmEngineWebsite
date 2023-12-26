@@ -1,13 +1,13 @@
 export const NAV_LINKS = [
-	{ href: "/", key: "home", label: "Home" },
-	{ href: "/motors", key: "motores_mwm", label: "Motores MWM" },
+	{ href: "/", key: "Home", label: "Home" },
+	{ href: "/motors", key: "MWM", label: "Motores MWM" },
 	{
 		href: "/motors",
-		key: "motores_caterpillar",
+		key: "Caterpillar",
 		label: "Motores Caterpillar",
 	},
-	{ href: "/motors", key: "motores_yanmar", label: "Motores Yanmar" },
-	{ href: "/contact", key: "contact", label: "Contato" },
+	{ href: "/motors", key: "Yanmar", label: "Motores Yanmar" },
+	{ href: "/contact", key: "Contact", label: "Contato" },
 ];
 
 export const FOOTER_LINKS = [
