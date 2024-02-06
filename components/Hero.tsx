@@ -8,7 +8,7 @@ import Link from 'next/link'
 export default function Hero()
 {
     return (
-        <section className='max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row flexBetween '>
+        <section className='max-container flex flex-col  gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row flexBetween '>
             <div className='flex flex-1 flex-col xl:w-1/2'>
                 <h1 className='bold-52 lg:bold-88'>AM Engine</h1>
                 <p className='regular-16 mt-6 text-gray-500 xl:max-w-[520px]'>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>

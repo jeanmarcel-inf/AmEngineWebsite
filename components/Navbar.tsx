@@ -26,7 +26,7 @@ export default function Navbar()
                                     name: link.key
                                 }
                             }}
-                            className="text-sm font-medium tracking-tight"
+                            className="text-sm font-medium hover:font-semibold tracking-tight"
                             key={link.key}>
                             {link.label}
                         </Link>

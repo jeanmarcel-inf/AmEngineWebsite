@@ -13,7 +13,6 @@ export default function Contact()
             {/* Para adicionar padding, basta envolver Map em uma div e utilizar padding-container,
                 Porém isso irá fazer o mapa desaparecer em dispositivos xl
              */}
-
             <Map />
         </div>
     )

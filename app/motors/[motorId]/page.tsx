@@ -27,7 +27,7 @@ export default function Motor({ searchParams }: {
                             Fabricante: <span className='font-semibold '>{searchParams.manufacturer}</span>
                         </p>
                         <h2 className='font-semibold text-xl mt-3 '>{formatBRL(searchParams.price)}</h2>
-                        <Button asChild size={"lg"} className='my-5  w-full'>
+                        <Button asChild variant={"primary"} size={"lg"} className='my-5  w-full'>
                             <Link href={"/contact"}>Solicitar Orçamento</Link>
                         </Button>
                         <p className='medium-14 mt-3 '>Ficha técnica: </p>
